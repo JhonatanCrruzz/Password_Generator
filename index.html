@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Meta generales -->
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Meta para SEO -->
+<meta name="title" content="Generador de Contraseñas Seguras | Rápido y Fácil" />
+<meta name="description" content="Genera contraseñas seguras y aleatorias en segundos. Personaliza la longitud y copia tu contraseña con un solo clic. ¡Mantén tus cuentas protegidas!" />
+<meta name="keywords" content="generador de contraseñas, seguridad, claves seguras, contraseñas aleatorias, password generator, protección de cuentas, seguridad en línea" />
+<meta name="robots" content="index, follow" />
+<meta name="language" content="es" />
+<meta name="author" content="Jhonatan Cruz" />
+
+<!-- Favicon -->
+<link rel="icon" href="https://jhonatancrruzz.github.io/Password_Generator/assets/icon/favicon.ico" type="image/x-icon">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://jhonatancrruzz.github.io/Password_Generator/" />
+<meta property="og:title" content="Generador de Contraseñas Seguras | Rápido y Fácil" />
+<meta property="og:description" content="Crea contraseñas seguras y únicas al instante. Fácil de usar y sin almacenamiento de datos. Protege tu información ahora." />
+<meta property="og:image" content="https://jhonatancrruzz.github.io/Password_Generator/assets/images/preview.webp" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:site_name" content="Generador de Contraseñas" />
+<meta property="og:locale" content="es_ES" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="https://jhonatancrruzz.github.io/Password_Generator/" />
+<meta name="twitter:title" content="Generador de Contraseñas Seguras | Rápido y Fácil" />
+<meta name="twitter:description" content="Crea contraseñas seguras y únicas en segundos. Personaliza la longitud y cópiala con un solo clic." />
+<meta name="twitter:image" content="https://jhonatancrruzz.github.io/Password_Generator/assets/images/preview.webp" />
+
+<!-- Compatibilidad con IE -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<!-- Enlaces a CSS -->
+<link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="./css/fonts.css">
+<link rel="stylesheet" href="./css/normalize.css">
+
+<!-- FontAwesome -->
+<script src="https://kit.fontawesome.com/a5964c2c99.js" crossorigin="anonymous"></script>
+
+<!-- Archivo JS -->
+<script src="./js/script.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <div class="top">
+            <h1>Generador de Contraseñas</h1>
+            <p>Genera tus contraseñas que cumplan con los requisitos de seguridad, recuerda lamcenarlas en lugar seguro.</p>
+        </div>
+    </header>
+    <main>
+        <div class="container_generator">
+            <div class="length_number">
+                <label for="length">Longitud de la contraseña:</label>
+                <div class="number_result">
+                    <input type="number" id="length" value="12" min="6" max="20">
+                    <i class="fa-solid fa-circle-info" id="infoIcon"></i>
+                    <span id="infoMessage">Aquí puedes aumentar o disminuir los caracteres de tu contraseña.</span>
+                </div>
+                
+            </div>
+            <div class="generator_password">
+                <button id="generateBtn">Generar Contraseña</button>
+                <div class="copy">
+                    <input type="text" id="password" readonly>
+                    <i class="fa-solid fa-copy" id="copyIcon"></i>
+                </div>                
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <p>Todas las contraseñas generadas no son almacenada en ningun sitio, recuerde visitar nuestra <a href="#">Politica de priveacidad</a>, estamos compormetidos con tu seguridad.</p>
+    </footer>
+</body>
+</html>

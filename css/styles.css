@@ -1,0 +1,161 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden; /* Evita el scroll horizontal */
+    padding: 0 .5rem 0 .5rem;
+    min-height: 100vh;
+}
+.top{
+    margin-top: .5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0 .5rem 0 .5rem;
+}
+.top h1{
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 3rem;
+}
+.top p{
+    font-family: "Oswald";
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.container_generator {
+    max-width: 100%; /* Limita el ancho en móviles */
+    margin: 0 auto; /* Centra horizontalmente */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: .8rem;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #0F1114;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.number_result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    max-width: 100%;
+}
+.length_number, .generator_password{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.length_number label{
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+.number_result input{
+    height: 35px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Oswald";
+}
+.number_result {
+    position: relative; /* Para que el tooltip se posicione respecto a este contenedor */
+    display: flex;
+    align-items: center;
+}
+
+#infoMessage {
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    white-space: normal; /* Permite que el texto se divida en varias líneas si es necesario */
+    word-wrap: break-word; /* Permite que las palabras largas se partan si es necesario */
+    width: 300px; /* Establece un ancho máximo para el contenedor */
+    max-width: 100vw; 
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s;
+    z-index: 10; /* Asegura que quede sobre otros elementos */
+}
+
+#infoMessage.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.generator_password button{
+    height: 45px;
+    width: 300px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-family: "Montserrat";
+}
+.copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+.copy input{
+    height: 35px;
+    width: 270px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Oswald";
+}
+.hidden {
+    display: none;
+}
+footer p {
+    padding: 1rem;
+    font-family: "Oswald";
+    font-weight: 300;
+    font-size: 1rem;
+    text-align: center;
+}
+@media (max-width: 600px) {
+    .top h1 {
+        font-size: 2rem;
+    }
+    .container_generator {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .top p {
+        font-size: 1rem;
+    }
+    .container_generator {
+        padding: 1rem;
+        width: 95%;
+    }
+    .generator_password button {
+        font-size: 1.1rem;
+        max-width: 100%;
+    }
+    .copy input {
+        max-width: 100%;
+    }
+}
