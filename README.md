@@ -5,7 +5,7 @@
 
 The **Secure Password Generator** is a web application that allows you to generate random, secure passwords with customizable password lengths. Its goal is to help users improve their online security by creating strong, hard-to-guess passwords.
 
-## 🚀 Características  
+## 🚀 Characteristics  
 
 ✅ Generates random and secure passwords.
 ✅ Customizable length (minimum 6, maximum 20 characters).
