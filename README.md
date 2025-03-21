@@ -1,57 +1,57 @@
-# 🔐 Generador de Contraseñas Seguras  
+# 🔐 Secure Password Generator
 
 
-## 📌 Descripción  
+## 📌 Description  
 
-El **Generador de Contraseñas Seguras** es una aplicación web que permite generar contraseñas aleatorias y seguras con una longitud personalizable. Su objetivo es ayudar a los usuarios a mejorar su seguridad en línea creando claves robustas y difíciles de adivinar.  
+The **Secure Password Generator** is a web application that allows you to generate random, secure passwords with customizable password lengths. Its goal is to help users improve their online security by creating strong, hard-to-guess passwords.
 
 ## 🚀 Características  
 
-✅ Generación de contraseñas aleatorias y seguras.  
-✅ Personalización de la longitud (mínimo 6, máximo 20 caracteres).  
-✅ Copia rápida al portapapeles con un solo clic.  
-✅ Interfaz sencilla y fácil de usar.  
-✅ No almacena ninguna contraseña generada.  
+✅ Generates random and secure passwords.
+✅ Customizable length (minimum 6, maximum 20 characters).
+✅ Quick copy to clipboard with one click.
+✅ Simple and easy-to-use interface.
+✅ Does not store any generated passwords. 
 
-## 🛠️ Tecnologías Utilizadas  
+## 🛠️ Technologies Used
 
 - HTML5  
 - CSS3  
-- JavaScript (Vanilla JS)  
-- FontAwesome (para iconos)  
+- JavaScript
+- FontAwesome
 
-## 📥 Instalación y Uso  
+## 📥 Installation and Use 
 
-1. **Clona este repositorio:**  
+1. **Clone this repository:**
 ```bash
    git clone https://github.com/jhonatancrruzz/generador-contrasenas.git
 ```
-2. **Abre el archivo index.html en tu navegador o usa una extensión como Live Server en VS Code.**
-3. 
-## 📌 Cómo Funciona
+2. **Open the index.html file in your browser or use an extension like Live Server in VS Code.**
 
-- Ajusta la longitud de la contraseña en el campo de número.
-- Haz clic en "Generar Contraseña" para obtener una clave segura.
-- Presiona el icono de copiar para copiar la contraseña al portapapeles.
+## 📌 How It Works
 
-## 📝 Contribuciones
+- Set the password length in the number field.
+- Click "Generate Password" to create a secure password.
+- Click the copy icon to copy the password to the clipboard.
 
-Si deseas mejorar este proyecto, ¡toda contribución es bienvenida!
+## 📝 Contributions
 
-1. Haz un fork del repositorio.
-2. Crea una nueva rama:
+If you'd like to improve this project, any contribution is welcome!
+
+1. Fork the repository.
+2. Create a new branch:
 ```bash
    git checkout -b mi-nueva-funcionalidad
 ```
-3.Realiza tus mejoras y haz un commit:
+3. Make your improvements and commit:
 ```bash
    git commit -m "Agregada nueva funcionalidad"
 ```
-4.Sube los cambios:
+4.Upgrade the gears:
 ```bash
   git push origin mi-nueva-funcionalidad
 ```
-5. Crea un pull request explicando tus cambios.
+5. Create a pull request explaining your changes.
 
 
 
